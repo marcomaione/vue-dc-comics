@@ -50,7 +50,6 @@ export default {
 <style lang="scss">
 
 .menu {
-    border: solid 1px black;
     width: 80%;
     margin: 0px auto;
     display: flex;

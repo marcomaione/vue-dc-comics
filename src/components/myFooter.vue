@@ -87,6 +87,11 @@ export default {
     .midle-right img {
         max-width:100%;
     }
+    .under {
+        width: 100%;
+        min-height: 200px;
+        background-color: black;
+    }
 }
 
 </style>

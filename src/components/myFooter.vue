@@ -123,6 +123,7 @@
                 <button>SIGN-UP NOW!</button>
             </div>
             <div>
+                <a href="#">FOLLOW US</a>
                 <img src="../assets/img/footer-facebook.png" alt="">
                 <img src="../assets/img/footer-periscope.png" alt="">
                 <img src="../assets/img/footer-pinterest.png" alt="">
@@ -198,6 +199,22 @@ export default {
         display: flex;
         justify-content: space-around;
         align-items: center;
+    }
+    .under button {
+        border: solid 1px #0282f9 ;
+        background-color:#303030 ;
+        color: white;
+        height: 40px;
+        cursor: pointer;
+        
+    }
+    
+    .under img {
+        margin-left: 15px;
+         vertical-align: middle;
+    }
+    .under a {
+        color: #0282f9;
     }
     .DC-1 {
         width:30% ;

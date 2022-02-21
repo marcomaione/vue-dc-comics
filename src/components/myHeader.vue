@@ -1,40 +1,42 @@
 <template>
    <div class="menu">
        <img src="../assets/img/dc-logo.png" alt="">
-       <ul>
-           <li>
-               <a href="#">CHARACTERS</a>
-           </li>
-            <li>
-               <a href="#">COMICS</a>
-           </li>
-            <li>
-               <a href="#">MOVIES</a>
-           </li>
-            <li>
-               <a href="#">TV</a>
-           </li>
-            <li>
-               <a href="#">GAMES</a>
-           </li>
-            <li>
-               <a href="#">COLLECTIBLES</a>
-           </li>
-            <li>
-               <a href="#">VIDEOS</a>
-           </li>
-            <li>
-               <a href="#">FANS</a>
-           </li>
-            <li>
-               <a href="#">NEWS</a>
-           </li>
-            <li>
-               <a href="#">SHOP</a>
-           </li>
-       </ul>
+       <nav>
+            <ul>
+                <li>
+                    <a href="#">CHARACTERS</a>
+                </li>
+                <li>
+                    <a href="#">COMICS</a>
+                </li>
+                <li>
+                    <a href="#">MOVIES</a>
+                </li>
+                <li>
+                    <a href="#">TV</a>
+                </li>
+                <li>
+                    <a href="#">GAMES</a>
+                </li>
+                <li>
+                    <a href="#">COLLECTIBLES</a>
+                </li>
+                <li>
+                    <a href="#">VIDEOS</a>
+                </li>
+                <li>
+                    <a href="#">FANS</a>
+                </li>
+                <li>
+                    <a href="#">NEWS</a>
+                </li>
+                <li>
+                    <a href="#">SHOP</a>
+                </li>
+            </ul>
+        </nav>
        
-   </div>
+    </div>
     
 </template>
 
@@ -48,10 +50,12 @@ export default {
 <style lang="scss">
 
 .menu {
-    width: 80%;
+    border: solid 1px black;
+    width: 70%;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     img {
         vertical-align: middle;
@@ -69,6 +73,8 @@ export default {
         }
     a {
          text-decoration: none;
+         padding: 0px 5px;
+         color:black;
          
 
         }

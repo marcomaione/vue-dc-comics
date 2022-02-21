@@ -51,33 +51,21 @@ export default {
 
 .menu {
     border: solid 1px black;
-    width: 70%;
+    width: 80%;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    img {
-        vertical-align: middle;
-
-    }
-    ul {
-        vertical-align: middle;
-       
-    }
     li {
-          list-style: none;
-          display:inline-block;
-          
-
-        }
+        list-style: none;
+        display:inline-block;
+    }
     a {
-         text-decoration: none;
-         padding: 0px 5px;
-         color:black;
-         
-
-        }
+        text-decoration: none;
+        padding: 0px 10px;
+        color:black;
+    }
 }
 
 

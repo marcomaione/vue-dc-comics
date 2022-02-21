@@ -27,43 +27,89 @@
                 <div class="DC-1">
                     <ul>
                         <h4>DC COMICS</h4>
-                        <li>CHARACTERS</li>
-                        <li>COMICS</li>
-                        <li>MOVIES</li>
-                        <li>TV</li>
-                        <li>GAMES</li>
-                        <li>VIDEOS</li>
-                        <li>NEWS</li>
+                        <li>
+                            <a href="#">Characters</a>
+                        </li>
+                        <li>
+                            <a href="#">Characters</a>
+                        </li>
+                        <li>
+                            <a href="#">Characters</a>
+                        </li>
+                        <li>
+                            <a href="#">Characters</a>
+                        </li>
+                        <li>
+                            <a href="#">Characters</a>
+                        </li>
+                        <li>
+                            <a href="#">Characters</a>
+                        </li>
+                        <li>
+                            <a href="#">Characters</a>
+                        </li>
                         <h4>DC COMICS</h4>
-                        <li>shop DC</li>
-                        <li>shop DC COLLECTIBLES</li>
+                        <li>
+                            <a href="#">Characters</a>
+                        </li>
+                        <li>
+                            <a href="#">Characters</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="DC-2">
                     <ul>
                         <h4>DC</h4>
-                        <li>terms of use</li>
-                        <li>terms of use</li>
-                        <li>terms of use</li>
-                        <li>terms of use</li>
-                        <li>terms of use</li>
-                        <li>terms of use</li>
-                        <li>terms of use</li>
-                        <li>terms of use</li>
-                        <li>terms of use</li>
-                        <li>terms of use</li>
-                        <li>terms of use</li>
+                        <li>
+                            <a href="#">Characters</a>
+                        </li>
+                        <li>
+                            <a href="#">Characters</a>
+                        </li>
+                        <li>
+                            <a href="#">Characters</a>
+                        </li>
+                        <li>
+                            <a href="#">Characters</a>
+                        </li>
+                        <li>
+                            <a href="#">Characters</a>
+                        </li>
+                        <li>
+                            <a href="#">Characters</a>
+                        </li>
+                        <li>
+                            <a href="#">Characters</a>
+                        </li>
+                         <li>
+                            <a href="#">Characters</a>
+                        </li>
+                        <li>
+                            <a href="#">Characters</a>
+                        </li>
+                        <li>
+                            <a href="#">Characters</a>
+                        </li>
                     </ul>
-
                 </div>
                 <div class="DC-3">
                     <ul>
                         <h4>SITES</h4>
-                        <li>DC</li>
-                        <li>DC</li>
-                        <li>DC</li>
-                        <li>DC</li>
-                        <li>DC</li>
+                        <li>
+                            <a href="#">Characters</a>
+                        </li>
+                        <li>
+                            <a href="#">Characters</a>
+                        </li>
+                        <li>
+                            <a href="#">Characters</a>
+                        </li>
+                        <li>
+                            <a href="#">Characters</a>
+                        </li>
+                        <li>
+                            <a href="#">Characters</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -152,6 +198,29 @@ export default {
         display: flex;
         justify-content: space-around;
         align-items: center;
+    }
+    .DC-1 {
+        width:30% ;
+        
+    }
+    .DC-2 {
+        width:30% ;
+        
+    }
+    .DC-3 {
+        width:30% ;
+       
+    }
+    h4 {
+        color: white;
+    }
+    ul {
+        list-style-type: none;
+        color: rgb(155, 152, 152);
+    }
+    a {
+        text-decoration: none;
+        color:rgb(155, 152, 152) ;
     }
 }
 

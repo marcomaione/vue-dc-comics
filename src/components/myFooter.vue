@@ -23,13 +23,67 @@
             </div>
         </div>
         <div class="midle">
-            <div class="midle-left"></div>
+            <div class="midle-left">
+                <div class="DC-1">
+                    <ul>
+                        <h4>DC COMICS</h4>
+                        <li>CHARACTERS</li>
+                        <li>COMICS</li>
+                        <li>MOVIES</li>
+                        <li>TV</li>
+                        <li>GAMES</li>
+                        <li>VIDEOS</li>
+                        <li>NEWS</li>
+                        <h4>DC COMICS</h4>
+                        <li>shop DC</li>
+                        <li>shop DC COLLECTIBLES</li>
+                    </ul>
+                </div>
+                <div class="DC-2">
+                    <ul>
+                        <h4>DC</h4>
+                        <li>terms of use</li>
+                        <li>terms of use</li>
+                        <li>terms of use</li>
+                        <li>terms of use</li>
+                        <li>terms of use</li>
+                        <li>terms of use</li>
+                        <li>terms of use</li>
+                        <li>terms of use</li>
+                        <li>terms of use</li>
+                        <li>terms of use</li>
+                        <li>terms of use</li>
+                    </ul>
+
+                </div>
+                <div class="DC-3">
+                    <ul>
+                        <h4>SITES</h4>
+                        <li>DC</li>
+                        <li>DC</li>
+                        <li>DC</li>
+                        <li>DC</li>
+                        <li>DC</li>
+                    </ul>
+                </div>
+            </div>
             <div class="midle-right">
                 <img src="../assets/img/dc-logo-bg.png" alt="">
             </div>
             
         </div>
-        <div class="under"></div>
+        <div class="under">
+            <div>
+                <button>SIGN-UP NOW!</button>
+            </div>
+            <div>
+                <img src="../assets/img/footer-facebook.png" alt="">
+                <img src="../assets/img/footer-facebook.png" alt="">
+                <img src="../assets/img/footer-facebook.png" alt="">
+                <img src="../assets/img/footer-facebook.png" alt="">
+                <img src="../assets/img/footer-facebook.png" alt="">
+            </div>
+        </div>
     </div>
 </template>
 
@@ -54,6 +108,7 @@ export default {
         align-items: center;
         min-height: 250px;
         background-color:#0282f9 ;
+        z-index: 999;
     }
     img {
         max-width: 60px;
@@ -71,26 +126,32 @@ export default {
         display: flex;
         justify-content: center;
         width: auto;
-        height: 200px;
+        height: 250px;
+        overflow: hidden;
+        
     }
     .midle-left {
-        border:solid 1px black;
         width: 40%;
+        display: flex;
     }
     .midle-right {
-        border:solid 1px black;
         width: 40%;
         display: flex;
         align-items: center;
         justify-content: center;
+        
     }
     .midle-right img {
         max-width:100%;
     }
     .under {
+    
         width: 100%;
-        min-height: 200px;
-        background-color: black;
+        min-height: 100px;
+        background-color:#303030;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
 }
 

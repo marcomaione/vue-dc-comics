@@ -1,5 +1,5 @@
 <template>
-   <div>
+   <div class="menu">
        <img src="../assets/img/dc-logo.png" alt="">
        <ul>
            <li>
@@ -44,3 +44,35 @@ export default {
   
 }
 </script>
+
+<style lang="scss">
+
+.menu {
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+
+    img {
+        vertical-align: middle;
+
+    }
+    ul {
+        vertical-align: middle;
+       
+    }
+    li {
+          list-style: none;
+          display:inline-block;
+          
+
+        }
+    a {
+         text-decoration: none;
+         
+
+        }
+}
+
+
+</style>

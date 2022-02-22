@@ -1,10 +1,12 @@
 <template>
     <div class="container">
         <div class="up">
-            <div class="items">
-                <img src="../assets/img/buy-comics-digital-comics.png" alt="">
-                <span>DIGITAL COMICS</span>
+            <div class="items" v-for="(items, index) in digital" :key="index">>
+                <img :src="items.img" alt="">
+                <span>{{items.testo}}</span>
             </div>
+            //non funziona non capisco il perchè
+            <!--
             <div class="items">
                 <img src="../assets/img/buy-comics-merchandise.png" alt="">
                 <span>DIGITAL COMICS</span>
@@ -21,6 +23,7 @@
                 <img src="../assets/img/buy-dc-power-visa.svg" alt="">
                 <span>DIGITAL COMICS</span>
             </div>
+            -->
         </div>
         <div class="midle">
             <div class="centro">
@@ -140,6 +143,33 @@
 <script>
 export default {
   name: 'myFooter',
+  data() {
+      return {
+          digital: [
+            {
+               testo: "DIGITAL COMICS",
+               img:"../assets/img/buy-comics-digital-comics.png"
+            },
+            {
+                testo: "DC MERCHANDISE",
+                img:"../assets/img/buy-comics-merchandise.png"
+            },
+            {
+                testo: "SUBSCRITION",
+                img:"../assets/img/buy-comics-subscriptions.png"
+            },
+            {
+               testo: "COMIC SHOP LOCATOR",
+               img:"../assets/img/buy-comics-shop-locator.png"
+            },
+            {
+                testo: "DC POWER VISA",
+                img:"../assets/img/buy-dc-power-visa.svg"
+            },
+           
+            ],
+        }
+    }
   
 }
 </script>

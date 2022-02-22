@@ -1,10 +1,11 @@
 <template>
     <div class="content">
-      <div class="card" v-for="(card, index) in cards" :key="index">
-        <img :src="card.thumb" alt="">
-        <h3>{{card.series}}</h3>
+      <div class="list">
+        <div class="card" v-for="(card, index) in cards" :key="index">
+            <img :src="card.thumb" alt="">
+            <h3>{{card.series}}</h3>
+        </div>
       </div>
-
     </div>
 </template>
 
@@ -103,6 +104,21 @@ export default {
   width: 100%;
   min-height: 500px;
   background-color: black;
+  .list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0px auto;
+  }
+}
+.card {
+  width:15%;
+  margin-top: 30px;
+  h3 {
+    color: azure;
+  }
+  
 }
 
 </style>

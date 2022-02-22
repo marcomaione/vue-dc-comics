@@ -113,10 +113,11 @@ export default {
   }
 }
 .card {
-  width:15%;
+  width:calc(100% / 6);
   margin-top: 30px;
   h3 {
-    color: azure;
+    color: white;
+    font-size: 20px;
   }
   
 }

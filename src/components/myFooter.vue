@@ -119,17 +119,19 @@
             
         </div>
         <div class="under">
-            <div>
-                <button>SIGN-UP NOW!</button>
-            </div>
-            <div>
-                <a href="#">FOLLOW US</a>
-                <img src="../assets/img/footer-facebook.png" alt="">
-                <img src="../assets/img/footer-periscope.png" alt="">
-                <img src="../assets/img/footer-pinterest.png" alt="">
-                <img src="../assets/img/footer-twitter.png" alt="">
-                <img src="../assets/img/footer-youtube.png" alt="">
-            </div>
+           <div class="follow">
+                <div>
+                    <button>SIGN-UP NOW!</button>
+                </div>
+                <div>
+                    <a href="#">FOLLOW US</a>
+                    <img src="../assets/img/footer-facebook.png" alt="">
+                    <img src="../assets/img/footer-periscope.png" alt="">
+                    <img src="../assets/img/footer-pinterest.png" alt="">
+                    <img src="../assets/img/footer-twitter.png" alt="">
+                    <img src="../assets/img/footer-youtube.png" alt="">
+                </div>
+           </div>
         </div>
     </div>
 </template>
@@ -196,9 +198,14 @@ export default {
         width: 100%;
         min-height: 100px;
         background-color:#303030;
+        .follow {
+        margin: 0px auto;
+        width: 80%;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
+        padding: 30px 0px;
+        }
     }
     .under button {
         border: solid 1px #0282f9 ;

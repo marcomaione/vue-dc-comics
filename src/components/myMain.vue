@@ -17,7 +17,6 @@ export default {
     width: 100%;
     min-height: 100px;
     background-color: black;
-    margin-top: 20px;
 }
 
 </style>

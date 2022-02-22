@@ -23,100 +23,101 @@
             </div>
         </div>
         <div class="midle">
-            <div class="midle-left">
-                <div class="DC-1">
-                    <ul>
-                        <h4>DC COMICS</h4>
-                        <li>
-                            <a href="#">Characters</a>
-                        </li>
-                        <li>
-                            <a href="#">Characters</a>
-                        </li>
-                        <li>
-                            <a href="#">Characters</a>
-                        </li>
-                        <li>
-                            <a href="#">Characters</a>
-                        </li>
-                        <li>
-                            <a href="#">Characters</a>
-                        </li>
-                        <li>
-                            <a href="#">Characters</a>
-                        </li>
-                        <li>
-                            <a href="#">Characters</a>
-                        </li>
-                        <h4>DC COMICS</h4>
-                        <li>
-                            <a href="#">Characters</a>
-                        </li>
-                        <li>
-                            <a href="#">Characters</a>
-                        </li>
-                    </ul>
+            <div class="centro">
+                <div class="midle-left">
+                    <div class="DC-1">
+                        <ul>
+                            <h4>DC COMICS</h4>
+                            <li>
+                                <a href="#">Characters</a>
+                            </li>
+                            <li>
+                                <a href="#">Characters</a>
+                            </li>
+                            <li>
+                                <a href="#">Characters</a>
+                            </li>
+                            <li>
+                                <a href="#">Characters</a>
+                            </li>
+                            <li>
+                                <a href="#">Characters</a>
+                            </li>
+                            <li>
+                                <a href="#">Characters</a>
+                            </li>
+                            <li>
+                                <a href="#">Characters</a>
+                            </li>
+                            <h4>DC COMICS</h4>
+                            <li>
+                                <a href="#">Characters</a>
+                            </li>
+                            <li>
+                                <a href="#">Characters</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="DC-2">
+                        <ul>
+                            <h4>DC</h4>
+                            <li>
+                                <a href="#">Characters</a>
+                            </li>
+                            <li>
+                                <a href="#">Characters</a>
+                            </li>
+                            <li>
+                                <a href="#">Characters</a>
+                            </li>
+                            <li>
+                                <a href="#">Characters</a>
+                            </li>
+                            <li>
+                                <a href="#">Characters</a>
+                            </li>
+                            <li>
+                                <a href="#">Characters</a>
+                            </li>
+                            <li>
+                                <a href="#">Characters</a>
+                            </li>
+                            <li>
+                                <a href="#">Characters</a>
+                            </li>
+                            <li>
+                                <a href="#">Characters</a>
+                            </li>
+                            <li>
+                                <a href="#">Characters</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="DC-3">
+                        <ul>
+                            <h4>SITES</h4>
+                            <li>
+                                <a href="#">Characters</a>
+                            </li>
+                            <li>
+                                <a href="#">Characters</a>
+                            </li>
+                            <li>
+                                <a href="#">Characters</a>
+                            </li>
+                            <li>
+                                <a href="#">Characters</a>
+                            </li>
+                            <li>
+                                <a href="#">Characters</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="DC-2">
-                    <ul>
-                        <h4>DC</h4>
-                        <li>
-                            <a href="#">Characters</a>
-                        </li>
-                        <li>
-                            <a href="#">Characters</a>
-                        </li>
-                        <li>
-                            <a href="#">Characters</a>
-                        </li>
-                        <li>
-                            <a href="#">Characters</a>
-                        </li>
-                        <li>
-                            <a href="#">Characters</a>
-                        </li>
-                        <li>
-                            <a href="#">Characters</a>
-                        </li>
-                        <li>
-                            <a href="#">Characters</a>
-                        </li>
-                         <li>
-                            <a href="#">Characters</a>
-                        </li>
-                        <li>
-                            <a href="#">Characters</a>
-                        </li>
-                        <li>
-                            <a href="#">Characters</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="DC-3">
-                    <ul>
-                        <h4>SITES</h4>
-                        <li>
-                            <a href="#">Characters</a>
-                        </li>
-                        <li>
-                            <a href="#">Characters</a>
-                        </li>
-                        <li>
-                            <a href="#">Characters</a>
-                        </li>
-                        <li>
-                            <a href="#">Characters</a>
-                        </li>
-                        <li>
-                            <a href="#">Characters</a>
-                        </li>
-                    </ul>
+                <div class="midle-right">
+                    <img src="../assets/img/dc-logo-bg.png" alt="">
                 </div>
             </div>
-            <div class="midle-right">
-                <img src="../assets/img/dc-logo-bg.png" alt="">
-            </div>
-            
         </div>
         <div class="under">
            <div class="follow">
@@ -174,22 +175,28 @@ export default {
         background-image: url("../assets/img/footer-bg.jpg");
         display: flex;
         justify-content: center;
-        width: auto;
+        width: 100%;
         height: 250px;
         overflow: hidden;
-        
-    }
-    .midle-left {
-        width: 40%;
+        .midle-left {
+        width: 50%;
         display: flex;
-    }
-    .midle-right {
-        width: 40%;
+        }
+        .midle-right {
+        width: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
         
+        }
+        .centro {
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+        }
+        
     }
+    
     .midle-right img {
         max-width:100%;
     }
@@ -218,23 +225,12 @@ export default {
     
     .under img {
         margin-left: 15px;
-         vertical-align: middle;
+        vertical-align: middle;
     }
     .under a {
         color: #0282f9;
     }
-    .DC-1 {
-        width:30% ;
-        
-    }
-    .DC-2 {
-        width:30% ;
-        
-    }
-    .DC-3 {
-        width:30% ;
-       
-    }
+    
     h4 {
         color: white;
     }

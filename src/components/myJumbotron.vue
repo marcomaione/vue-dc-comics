@@ -14,7 +14,7 @@ export default {
 <style lang="scss">
 .jumbotron {
     margin-top: 20px;
-    min-height: 450px;
+    min-height: 400px;
     background-image: url("../assets/img/jumbotron.jpg");
     background-size:cover;
 }
